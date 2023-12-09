@@ -2,12 +2,12 @@ const strongTags = document.querySelectorAll("p strong");
 
 function highlight() {
   strongTags.forEach((element) => {
-    element.style.color = "#007F00";
+    element.style.color = "green";
   });
 }
 
 function return_normal() {
   strongTags.forEach((element) => {
-    element.style.color = "";
+    element.style.color = "black";
   });
 }
